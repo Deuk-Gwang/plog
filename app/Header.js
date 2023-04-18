@@ -17,7 +17,7 @@ export default function Header() {
             <h1 className='logo'>🍎</h1>
           </a>
           <li>
-            <a href='https://github.com/Deuk-Gwang'>Git</a>
+            <a href='https://github.com/Deuk-Gwang'>GitHub</a>
           </li>
           <li>
             <a href='https://velog.io/@nb3065'>Velog</a>

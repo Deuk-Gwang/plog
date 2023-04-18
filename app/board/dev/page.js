@@ -1,4 +1,4 @@
-export default function Life({ title, content }) {
+export default function Dev({ title, content }) {
   return (
     <div className='life-container container'>
       <ul>
@@ -8,7 +8,7 @@ export default function Life({ title, content }) {
         <li className='two'></li>
         <li className='three'></li>
       </ul>
-      <h2>Life</h2>
+      <h2>Dev</h2>
       <div className='life-content'>
         <p>
           asdfsadfdasasdfsadfdasasdfsadfdasasdfsadfdas
