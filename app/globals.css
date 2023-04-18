@@ -167,12 +167,14 @@ header a {
     top: -10px;
     opacity: 0;
     width: 100px;
+    height: 0;
   }
 
   to {
     left: 50%;
     opacity: 1;
     width: 1200px;
+    height: fit-content;
   }
 }
 
