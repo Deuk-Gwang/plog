@@ -11,8 +11,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang='ko'>
       <body>
-        <Header />
-        {children}
         <div className='iconArea'>
           <DockIcon
             imgSrc={
@@ -20,13 +18,17 @@ export default function RootLayout({ children }) {
             }
             name={"Life"}
             altName={"lifeboard"}
+            toHref={"board/life"}
           />
           <DockIcon
             imgSrc={"https://pbs.twimg.com/media/EA9UJBjU4AAdkCm.jpg"}
             name={"Dev"}
             altName={"devboard"}
+            toHref={"board/dev"}
           />
         </div>
+        {children}
+        <Header />
       </body>
     </html>
   );
