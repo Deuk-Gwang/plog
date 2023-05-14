@@ -18,15 +18,16 @@ export default function RootLayout({ children }) {
             }
             name={"Life"}
             altName={"lifeboard"}
-            toHref={"board/life"}
+            toHref={"pages/Life"}
           />
           <DockIcon
             imgSrc={"https://pbs.twimg.com/media/EA9UJBjU4AAdkCm.jpg"}
             name={"Dev"}
             altName={"devboard"}
-            toHref={"board/dev"}
+            toHref={"pages/Dev"}
           />
         </div>
+        <div className='empty-place'></div>
         {children}
         <Header />
       </body>
